@@ -18,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    SKView *spriteView = (SKView *)self.view;
+    spriteView.showsDrawCount = YES;    // fewer the better
+    spriteView.showsNodeCount = YES;    // yeah whatever
+    spriteView.showsFPS = YES;  // should try to maintain it to a constant frame rate
 }
 
 @end
