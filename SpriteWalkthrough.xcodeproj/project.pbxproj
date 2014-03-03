@@ -22,6 +22,7 @@
 		E4F9DAE618C3FD0800C2C7D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4F9DAE418C3FD0800C2C7D0 /* InfoPlist.strings */; };
 		E4F9DAE818C3FD0800C2C7D0 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9DAE718C3FD0800C2C7D0 /* SpriteWalkthroughTests.m */; };
 		E4F9DAF518C4024A00C2C7D0 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9DAF418C4024A00C2C7D0 /* HelloScene.m */; };
+		E4F9DAF818C4902C00C2C7D0 /* SpaceshipScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9DAF718C4902C00C2C7D0 /* SpaceshipScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		E4F9DAE718C3FD0800C2C7D0 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
 		E4F9DAF318C4024A00C2C7D0 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloScene.h; path = "View (& scenes)/HelloScene.h"; sourceTree = "<group>"; };
 		E4F9DAF418C4024A00C2C7D0 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloScene.m; path = "View (& scenes)/HelloScene.m"; sourceTree = "<group>"; };
+		E4F9DAF618C4902C00C2C7D0 /* SpaceshipScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpaceshipScene.h; path = "View (& scenes)/SpaceshipScene.h"; sourceTree = "<group>"; };
+		E4F9DAF718C4902C00C2C7D0 /* SpaceshipScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpaceshipScene.m; path = "View (& scenes)/SpaceshipScene.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +163,8 @@
 			children = (
 				E4F9DAF318C4024A00C2C7D0 /* HelloScene.h */,
 				E4F9DAF418C4024A00C2C7D0 /* HelloScene.m */,
+				E4F9DAF618C4902C00C2C7D0 /* SpaceshipScene.h */,
+				E4F9DAF718C4902C00C2C7D0 /* SpaceshipScene.m */,
 			);
 			name = "View (& scenes)";
 			path = SpriteWalkthrough;
@@ -274,6 +279,7 @@
 			files = (
 				E4F9DAC918C3FD0800C2C7D0 /* main.m in Sources */,
 				E4F9DAF518C4024A00C2C7D0 /* HelloScene.m in Sources */,
+				E4F9DAF818C4902C00C2C7D0 /* SpaceshipScene.m in Sources */,
 				E4F9DACD18C3FD0800C2C7D0 /* SpriteAppDelegate.m in Sources */,
 				E4F9DAD318C3FD0800C2C7D0 /* SpriteViewController.m in Sources */,
 			);
