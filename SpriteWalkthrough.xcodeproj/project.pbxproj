@@ -21,6 +21,7 @@
 		E4F9DADE18C3FD0800C2C7D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F9DAC018C3FD0800C2C7D0 /* UIKit.framework */; };
 		E4F9DAE618C3FD0800C2C7D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4F9DAE418C3FD0800C2C7D0 /* InfoPlist.strings */; };
 		E4F9DAE818C3FD0800C2C7D0 /* SpriteWalkthroughTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9DAE718C3FD0800C2C7D0 /* SpriteWalkthroughTests.m */; };
+		E4F9DAF518C4024A00C2C7D0 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F9DAF418C4024A00C2C7D0 /* HelloScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		E4F9DACB18C3FD0800C2C7D0 /* SpriteAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteAppDelegate.h; sourceTree = "<group>"; };
 		E4F9DACC18C3FD0800C2C7D0 /* SpriteAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteAppDelegate.m; sourceTree = "<group>"; };
 		E4F9DACF18C3FD0800C2C7D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E4F9DAD118C3FD0800C2C7D0 /* SpriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteViewController.h; sourceTree = "<group>"; };
-		E4F9DAD218C3FD0800C2C7D0 /* SpriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteViewController.m; sourceTree = "<group>"; };
+		E4F9DAD118C3FD0800C2C7D0 /* SpriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpriteViewController.h; path = SpriteWalkthrough/SpriteViewController.h; sourceTree = "<group>"; };
+		E4F9DAD218C3FD0800C2C7D0 /* SpriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SpriteViewController.m; path = SpriteWalkthrough/SpriteViewController.m; sourceTree = "<group>"; };
 		E4F9DAD418C3FD0800C2C7D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4F9DADA18C3FD0800C2C7D0 /* SpriteWalkthroughTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteWalkthroughTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F9DADB18C3FD0800C2C7D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E4F9DAE318C3FD0800C2C7D0 /* SpriteWalkthroughTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteWalkthroughTests-Info.plist"; sourceTree = "<group>"; };
 		E4F9DAE518C3FD0800C2C7D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E4F9DAE718C3FD0800C2C7D0 /* SpriteWalkthroughTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteWalkthroughTests.m; sourceTree = "<group>"; };
+		E4F9DAF318C4024A00C2C7D0 /* HelloScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelloScene.h; path = "View (& scenes)/HelloScene.h"; sourceTree = "<group>"; };
+		E4F9DAF418C4024A00C2C7D0 /* HelloScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelloScene.m; path = "View (& scenes)/HelloScene.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		E4F9DAB018C3FD0800C2C7D0 = {
 			isa = PBXGroup;
 			children = (
+				E4F9DAF218C4020F00C2C7D0 /* Controllers */,
+				E4F9DAF118C401E500C2C7D0 /* View (& scenes) */,
 				E4F9DAC218C3FD0800C2C7D0 /* SpriteWalkthrough */,
 				E4F9DAE118C3FD0800C2C7D0 /* SpriteWalkthroughTests */,
 				E4F9DABB18C3FD0800C2C7D0 /* Frameworks */,
@@ -115,8 +120,6 @@
 				E4F9DACB18C3FD0800C2C7D0 /* SpriteAppDelegate.h */,
 				E4F9DACC18C3FD0800C2C7D0 /* SpriteAppDelegate.m */,
 				E4F9DACE18C3FD0800C2C7D0 /* Main.storyboard */,
-				E4F9DAD118C3FD0800C2C7D0 /* SpriteViewController.h */,
-				E4F9DAD218C3FD0800C2C7D0 /* SpriteViewController.m */,
 				E4F9DAD418C3FD0800C2C7D0 /* Images.xcassets */,
 				E4F9DAC318C3FD0800C2C7D0 /* Supporting Files */,
 			);
@@ -150,6 +153,25 @@
 				E4F9DAE418C3FD0800C2C7D0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4F9DAF118C401E500C2C7D0 /* View (& scenes) */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9DAF318C4024A00C2C7D0 /* HelloScene.h */,
+				E4F9DAF418C4024A00C2C7D0 /* HelloScene.m */,
+			);
+			name = "View (& scenes)";
+			path = SpriteWalkthrough;
+			sourceTree = "<group>";
+		};
+		E4F9DAF218C4020F00C2C7D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9DAD118C3FD0800C2C7D0 /* SpriteViewController.h */,
+				E4F9DAD218C3FD0800C2C7D0 /* SpriteViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4F9DAC918C3FD0800C2C7D0 /* main.m in Sources */,
+				E4F9DAF518C4024A00C2C7D0 /* HelloScene.m in Sources */,
 				E4F9DACD18C3FD0800C2C7D0 /* SpriteAppDelegate.m in Sources */,
 				E4F9DAD318C3FD0800C2C7D0 /* SpriteViewController.m in Sources */,
 			);
